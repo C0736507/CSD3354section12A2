@@ -1,10 +1,10 @@
 ﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
- <h2>HTML Helper Controller</h2>
- <table border="1">
-     <tr><td>Name</td><td>@Html.TextBox("Name")</td> </tr>
-     <tr><td>Address</td><td>@Html.TextBox("Address")</td> </tr>
-     <tr><td>Language</td><td>Punjabi @Html.CheckBox("Punjabi")English @Html.CheckBox("Punjabi")</td> </tr>
-     <tr><td>Gender</td>Female @Html.RadioButton("Gender", "Female") Male @Html.RadioButton("Gender", "Male")</tr>
- </table>
+    int a, b, c;
+    String add;
+    a = 10;
+    b = 20;
+    c = a + b;
+    add = "addition is" + @c;
+    <h2>@add</h2>
 }
